@@ -8,44 +8,44 @@
     <title>Responsive Form Layout</title>
   </head>
   <body>
-    <div class="container">
-      <div class="row">
-        <!-- Name -->
-        <div class="col-md-6">
-          <div class="form-group">
-            <label for="name">Name:</label>
-            <input
-              type="text"
-              class="form-control"
-              id="name"
-              aria-describedby="name"
-              placeholder="Enter Name"
-              aria-required="true"
-            />
+    <form action="#">
+      <div class="container">
+        <div class="row">
+          <!-- Name -->
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                aria-describedby="name"
+                placeholder="Enter Name"
+                required
+              />
+            </div>
+          </div>
+
+          <!-- Email Address -->
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="email">Email address:</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="Enter email"
+                required
+              />
+            </div>
           </div>
         </div>
 
-        <!-- Email Address -->
-        <div class="col-md-6">
-          <div class="form-group">
-            <label for="email">Email address:</label>
-            <input
-              type="email"
-              class="form-control"
-              id="email"
-              aria-describedby="emailHelp"
-              placeholder="Enter email"
-              aria-required="true"
-            />
-          </div>
-        </div>
-      </div>
-      <!-- Button -->
-      <div class="row">
+        <!-- Button -->
         <div class="col-12 text-end">
           <button type="submit" class="btn btn-primary">Submit</button>
         </div>
       </div>
-    </div>
+    </form>
   </body>
 </html>
